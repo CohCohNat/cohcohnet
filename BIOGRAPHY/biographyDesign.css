@@ -1,0 +1,148 @@
+#biography{
+    background-color:#f2f2f2;
+    padding: 0px;
+    margin: 0px;
+}
+
+#titlebg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(Images/mainbg.jpg);
+    min-height: 1000px;
+}
+
+#titlecontainer {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#titlecontainer hr {
+    max-width: 600px;
+}
+
+#biotitle h1{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#biotitle h1 b{
+    font-size: 50px;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color:#f2f2f2;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: #f2f2f2;
+    color: #2c2c2c;
+}
+
+#cntcontainer{
+    margin: 0px 5% 100px;
+}
+
+#cntcontainer img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: #2c2c2c solid 5px;
+}
+
+#cntcontainer h2{
+    color: #2c2c2c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    word-spacing: 20px;
+}
+
+#cntcontainer p{
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+#cntcontainer sup{
+    position:relative;
+    color: #239700;
+}
+
+#childhood{
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#cntcontainer .column {
+    float: left;
+}
+
+.left, .right {
+    width: 100%;
+}
+
+.right img{
+    display: block;
+    margin: 10px auto;
+}
+
+#teenage {
+    padding-top: 10px;
+}
+
+@media (min-width: 617px) {
+    .menu a{
+        display: inline;
+    }
+}
+
+@media (min-width: 1300px) {
+    .left {
+        width: 60%;
+    }
+    
+    .right {
+        width: 40%;
+        text-align: center;
+    }
+    .goTopContainer {
+        display: flex;
+        margin-left: 20px;
+        justify-content: left;
+    }
+    #biotitle h1{
+        font-size: 50px;
+    }
+    #cntcontainer p{
+        font-size: 20px;
+    }
+    #biotitle h1 b{
+        font-size: 70px;
+    }
+    .menu a{
+        font-size: 30px;
+    }
+}

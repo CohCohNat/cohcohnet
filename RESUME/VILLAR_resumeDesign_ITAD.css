@@ -1,0 +1,136 @@
+#Resume{
+    background-image: url(Images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+#rsmContainer{
+    display: block;
+    margin: 30px auto;
+    background-color:#f2f2f2;
+    padding: 30px 5%;
+    height: auto;
+    width: 90%;
+    background-position: center;
+}
+
+#imgprofile{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2c2c2c;
+}
+
+#name{
+    color: #2c2c2c;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.profession{
+    color: #2c2c2c;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+#aboutme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 24px;
+    margin: 20px 5%;
+    line-height: 30px;
+    color: #2c2c2c;
+}
+
+.rsmInfoTitle{
+    color: #2c2c2c;
+    text-align: left;
+    text-decoration: none; 
+    list-style: none;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.rsmInfo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    margin: 10px 0px 0px;
+    padding: 0px;
+}
+
+.big {
+    padding-left: 5%;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+}
+  
+.row {
+    margin-top: 50px;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (min-width: 1300px) {
+    #rsmContainer{
+        width: 70%;
+        border-radius: 10%;
+        padding: 30px 50px;
+    }
+    #imgprofile{
+        width: 215px;
+        height: 215px;
+    }
+    #name {
+        font-size: 50px;
+    }
+    .profession{
+        font-size: 30px;
+    }
+    .rsmInfoTitle{
+        font-size: 35px;
+    }
+    .rsmInfo{
+        font-size: 20px;
+    }
+    #aboutme{
+        font-size: 20px;
+    }
+    #hobbies {
+        margin-top: 50px;
+    }
+    .big {
+        padding-left: 40px;
+    }
+    .column {
+        width: 50%;
+        padding-left: 40px;
+    }
+    .row {
+        margin: 0px;
+    }
+}
+

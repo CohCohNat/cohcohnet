@@ -1,0 +1,162 @@
+#skillsbody{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+.mainbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(Images/mainbg.jpg);
+    min-height: 1000px;
+}
+
+.titlecontainer {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.titlecontainer hr {
+    max-width: 700px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color:#f2f2f2;
+    margin: 0px 15px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.menu a:hover{
+    background-color: #f2f2f2;
+    color: #2c2c2c;
+}
+
+
+.maintitle {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.maintitle h1{
+    padding: 0px;
+    margin: 0px 0px 30px;
+}
+
+.gandalfbg, .edisonbg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.gandalfbg {
+    background-image: url(Images/gandalfbg.jpg);
+}
+
+.edisonbg{
+    background-image: url(Images/edisonbg.jpg);
+}
+
+.gandalfQuote, .edisonQuote{
+    padding: 9% 20%;
+    vertical-align: middle;
+}
+
+.gandalfQuote h2, .edisonQuote h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #f2f2f2;
+    margin: 0px;
+}
+
+.gandalfQuote h3, .edisonQuote h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #f2f2f2;
+    margin: 0px;
+}
+
+.goTopContainer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cntcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px 5% 100px;
+}
+
+.cntcontainer h3{
+    text-align: center;
+    color: #2c2c2c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.cntcontainer p{
+    color: #000000;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.cntcontainer sup{
+    color: #239700;
+    position: relative;
+}
+
+#skills {
+    padding-top: 10px;
+}
+
+@media (min-width: 617px) {
+    .menu a{
+        display: inline;
+    }
+    .gandalfQuote h2, .edisonQuote h2{
+        font-size: 30px;
+    }
+    .cntcontainer {
+        margin: 0px 10% 100px;
+    }
+    .maintitle {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .maintitle {
+        font-size: 40px;
+    }
+    .menu a {
+        font-size: 30px;
+    }
+    .gandalfQuote h2, .edisonQuote h2{
+        font-size: 60px;
+    }
+    .cntcontainer p{
+        font-size: 18px;
+    }
+}

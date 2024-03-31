@@ -1,0 +1,230 @@
+#myfilms {
+    margin: 0px;
+}
+
+.mainbg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(Images/mainbg.jpg);
+    min-height: 1000px;
+}
+
+.titlecontainer {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.titlecontainer hr {
+    max-width: 500px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a{
+    display: block;
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 30px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: #f2f2f2;
+    color: #2c2c2c;
+}
+
+.maintitle {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.maintitle h1{
+    word-spacing: 20px;
+    padding: 0px;
+    margin: 0px 0px 30px;
+}
+
+.goTopContainer a{
+    margin: 0px 25px;
+}
+
+.cntcontainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.mymovies {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mymovies h2{
+    padding: 50px 0px;
+    margin: 0px;
+    color: #f2f2f2;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.videoblock {
+    margin: 0px auto;
+    padding: 100px 0px 300px;
+}
+
+.videoblock video {
+    width: 300px;
+}
+
+.vidcontainer {
+    background-image: url(images/videoBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+
+.column {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px 0px 20px;
+    color: #f2f2f2;
+}
+
+.right p {
+    margin: 0px 5%;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 50px;
+    color: #f2f2f2;
+}
+
+@media (min-width: 617px) {
+    .maintitle {
+        font-size: 30px;
+    }
+    .menu a{
+        display: inline;
+    }
+    .gandalfQuote h2, .edisonQuote h2{
+        font-size: 30px;
+    }
+    .videoblock video {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .videoblock video {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1460px) {
+    .maintitle {
+        font-size: 40px;
+    }
+    .menu a {
+        font-size: 30px;
+    }
+    .goTopContainer {
+        display: inline;
+    }
+    .column {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        float: left;
+        height: 500px;
+    }
+    
+    .left {
+        width: 50%;
+        text-align: left;
+    }
+    
+    .right {
+        width: 50%;
+        padding: 0px 20px;
+    }
+
+    .right p {
+        margin: 0px;
+        font-size: 18px;
+    }
+
+    .videoblock {
+        width: 1450px;
+    }
+
+    .videoblock video {
+        display: block;
+        width: 700px;
+        margin: auto;
+    }
+
+    .mymovies h2{
+        font-size: 60px;
+    }
+    .row h2 {
+        font-size: 50px;
+    }
+    
+}
+
+@media (min-width: 1441px) {
+    .left video {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .mid {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .left {
+        width: 60%;
+        text-align: left;
+    }
+    
+    .right {
+        width: 40%;
+        padding: 0px 20px;
+    }
+    .videoblock video {
+        display: block;
+        width: 800px;
+        margin: auto;
+    }
+}
